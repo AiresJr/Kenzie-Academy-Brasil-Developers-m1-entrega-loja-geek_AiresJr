@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #FFFFFF
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 88px;
+    box-shadow: 0 8px 6px -6px #000;
+}
+
+.listFigure {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+
+}
+
+.listPainting {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 65px;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 8px;
+    width: 50%;
+    height: 60%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    content: "";
+    background-color: #0A99FE;
+    transition: 1s;
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 207px;
+    height: 275px;
+    background: rgba(7, 185, 255, 0.115);
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s;
+    box-shadow: 0 8px 6px -6px #000;
+    
+}
+
+.card:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+img {
+    max-height: 70%;
+    width: 207px;
+    border-radius: 10px
+}
+
+h3 {
+    color: #1B1B1B;
+    font-size: 20px;
+
+}
+
+
+p {
+    text-align: center;
+    color: #868383;
+    font-size: 16px;
+    
+}
