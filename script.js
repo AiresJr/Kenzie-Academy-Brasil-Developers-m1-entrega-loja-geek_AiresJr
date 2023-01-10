@@ -210,18 +210,3 @@ function createFigures() {
     }
 }
 createFigures();
-/*
-<ul>
-    <li class="card">
-        <img src="/assets/img/painting/clock.jpg" alt="clock">
-        <section>
-            <div class = "nome">
-                <h1>Relógio Geek</h1>
-             </div>
-             <div class = "preco">
-                <p>R$ 50,00</p>
-            </div>
-        </section>
-    </li>
-</ul>
-*/
