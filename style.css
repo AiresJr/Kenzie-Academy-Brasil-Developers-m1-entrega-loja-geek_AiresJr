@@ -49,11 +49,14 @@ button {
     height: 60%;
     margin-right: 15px;
     cursor: pointer;
+    background-color: #0A99FE;
+  
+   
 }
 
 button:hover {
     content: "";
-    background-color: #0A99FE;
+    background-color: #1A26FE;
     transition: 1s;
     transform: scale3d(1.1, 1.1, 1);
 }
