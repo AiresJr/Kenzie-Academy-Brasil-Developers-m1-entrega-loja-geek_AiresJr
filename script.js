@@ -1,121 +1,116 @@
 const itens = [
     {
         name: "Robot",
-        image: "/assets/img/painting/personagem.jpg",
+        image: "./assets/img/painting/personagem.jpg",
         price: "R$87,90",
         type: "frames"
     },
     {
         name: "Relogio Geek",
-        image: "/assets/img/painting/clock.jpg",
+        image: "./assets/img/painting/clock.jpg",
         price: "R$54,90",
         type: "frames"
     },
     {
         name: "Gamepad Gamer",
-        image: "/assets/img/painting/gamepad.jpg",
+        image: "./assets/img/painting/gamepad.jpg",
         price: "R$89,90",
         type: "frames"
     },
     {
         name: "Miss Fortune",
-        image: "/assets/img/actions/animewoman.jpg",
+        image: "./assets/img/actions/animewoman.jpg",
         price: "R$112,90",
         type: "figure"
     },
     {
         name: "Goku",
-        image: "/assets/img/actions/dragonballpersonagem.jpg",
+        image: "./assets/img/actions/dragonballpersonagem.jpg",
         price: "R$135,90",
         type: "figure"
     },
     {
         name: "Baby Yoda",
-        image: "/assets/img/actions/starwarspersonagem.jpg",
+        image: "./assets/img/actions/starwarspersonagem.jpg",
         price: "R$99,90",
         type: "figure"
     },
     {
         name: "Darth Vader",
-        image: "/assets/img/painting/vader.jpg",
+        image: "./assets/img/painting/vader.jpg",
         price: "R$117,90",
         type: "frames"
     },
     {
         name: "Tommy Shelby",
-        image: "/assets/img/painting/tomy.jpg",
+        image: "./assets/img/painting/tomy.jpg",
         price: "R$77,50",
         type: "frames"
     },
     {
         name: "Dota 2",
-        image: "/assets/img/painting/dota.jpg",
+        image: "./assets/img/painting/dota.jpg",
         price: "R$112,90",
         type: "frames"
     },
     {
         name: "Kratos - God Of War",
-        image: "/assets/img/painting/kratos.jpg",
+        image: "./assets/img/painting/kratos.jpg",
         price: "R$97,90",
         type: "frames"
     },
     {
         name: "Lineage 2",
-        image: "/assets/img/painting/l2.jpg",
+        image: "./assets/img/painting/l2.jpg",
         price: "R$118,45",
         type: "frames"
     },
     {
         name: "League Of Legends",
-        image: "/assets/img/painting/lol.jpg",
+        image: "./assets/img/painting/lol.jpg",
         price: "R$108,45",
         type: "frames"
     },
     {
         name: "League Of Legends",
-        image: "/assets/img/actions/lol.jpg",
+        image: "./assets/img/actions/lol.jpg",
         price: "R$113,40",
         type: "figure"
     },
     {
         name: "Lineage 2",
-        image: "/assets/img/actions/l2.jpg",
+        image: "./assets/img/actions/l2.jpg",
         price: "R$118,00",
         type: "figure"
     },
     {
         name: "Capitão América",
-        image: "/assets/img/actions/cap.jpg",
+        image: "./assets/img/actions/cap.jpg",
         price: "R$135,00",
         type: "figure"
     },
     {
         name: "Thor",
-        image: "/assets/img/actions/thor.jpg",
+        image: "./assets/img/actions/thor.jpg",
         price: "R$77,50",
         type: "figure"
     },
     {
         name: "Demon Slayer",
-        image: "/assets/img/actions/demon.jpg",
+        image: "./assets/img/actions/demon.jpg",
         price: "R$88,45",
         type: "figure"
     },
     {
         name: "Nezuko",
-        image: "/assets/img/actions/nezuko.jpg",
+        image: "./assets/img/actions/nezuko.jpg",
         price: "R$128,90",
         type: "figure"
     }
 
 ];
 
-let listFrames = [{
-    name: "Demon Slayer",
-    image: "/assets/img/actions/demon.jpg",
-    price: "R$88,45",
-    type: "figure"
-}];
+let listFrames = [];
 let listFigures = [];
 function separateItens() {
     for (let i = 0; i < itens.length; i++) {
