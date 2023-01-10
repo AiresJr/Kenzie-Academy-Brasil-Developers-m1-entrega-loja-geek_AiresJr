@@ -21,6 +21,11 @@ header {
     box-shadow: 0 8px 6px -6px #000;
 }
 
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
 .listFigure {
     display: flex;
     flex-direction: row;
@@ -74,6 +79,7 @@ button:hover {
     overflow: hidden;
     transition: 0.5s;
     box-shadow: 0 8px 6px -6px #000;
+    margin-left: 25px;
     
 }
 
