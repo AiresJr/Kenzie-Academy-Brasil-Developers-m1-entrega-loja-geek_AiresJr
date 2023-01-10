@@ -1,7 +1,7 @@
 const itens = [
     {
         name: "Robot",
-        image: "./assets/img/painting/personagem.jpg",
+        image: "/assets/img/painting/personagem.jpg",
         price: "R$87,90",
         type: "frames"
     },
